@@ -1,6 +1,4 @@
-﻿using System.Runtime.Serialization;
-
-var lines = File.ReadAllLines("../input-full.txt");
+﻿var lines = File.ReadAllLines("../input-full.txt");
 
 // Process the input into more useful structures
 var emptyIx = Array.FindIndex(lines, string.IsNullOrEmpty);
