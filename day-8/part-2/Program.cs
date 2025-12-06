@@ -1,3 +1,3 @@
-﻿var lines = File.ReadAllLines("input.txt");
+﻿var lines = File.ReadAllLines("../input.txt");
 
-Console.WriteLine(lines.Count);
+Console.WriteLine(lines.Length);
