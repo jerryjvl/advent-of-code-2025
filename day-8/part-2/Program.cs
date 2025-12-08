@@ -46,7 +46,7 @@ foreach (var pair in sortedPairs)
     if (joined.Count == coords.Count)
     {
         // input      = 25272
-        // input-full = ?
+        // input-full = 107256172
         Console.WriteLine(coords[pair.i][0] * coords[pair.j][0]);
         break;
     }
