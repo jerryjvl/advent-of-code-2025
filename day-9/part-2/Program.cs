@@ -63,7 +63,7 @@ var sortedPairs =
         });
 
 long max = 0;
-foreach (var ixPair in sortedPairs)
+foreach (var ixPair in sortedPairs.Reverse())
 {
     var fst = coords[ixPair.i];
     var sec = coords[ixPair.j];
@@ -84,7 +84,11 @@ foreach (var ixPair in sortedPairs)
             valid = false;
     }
 
-    if (valid) max = area;
+    if (valid)
+    {
+        max = area;
+        break;
+    }
 }
 
 // input      = 24
